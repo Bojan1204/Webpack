@@ -1,15 +1,8 @@
 // Custom JS
 
-console.log('Website is runing..');
+
+// alert(`Hello`);
 
 
-// $('.test-btn').addClass('fat')
-
-
-var $test = $('.test-btn');
-
-$test.click(function () {
-    $(this).addClass('TEST')
-  });
 
 
