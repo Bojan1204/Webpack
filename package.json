@@ -1,14 +1,14 @@
 {
-  "name": "bootstrap-4-webpack-4-starter-kit",
+  "name": "Bojan Bosnic - Portfolio",
   "version": "1.0.0",
-  "description": "This is a starter kit of Bootstrap 4 and Webpack 4",
+  "description": "This is my personal portfolio",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server  --config webpack.dev.js --open chrome --watch",
     "build": "webpack --config webpack.prod.js"
   },
   "keywords": [],
-  "author": "Stanislav Vranic - Crowscript",
+  "author": "Bojan Bosnic",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.3.4",
@@ -34,9 +34,7 @@
     "webpack-merge": "^4.2.1"
   },
   "dependencies": {
-    "bootstrap": "^4.3.1",
-    "jquery": "^3.3.1",
-    "popper.js": "^1.14.7"
+  
   },
   "browserslist": [
     "> 1%",

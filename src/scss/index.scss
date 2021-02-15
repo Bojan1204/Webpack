@@ -2,7 +2,6 @@
 
 // Contents:
 // 01. Vendor (Normalize, ...)
-// 02. Bootstrap
 // 03. Custom CSS
 //  03.1 Utilities ( COMPASS, Variables, Functions, Mixins, etc... )
 //  03.2 Base ( regular elements )
@@ -15,9 +14,6 @@
 // 01. Vendor / Normalize
 @import "utilities/vendor/*.scss";
 
-// 02. Bootstrap
-@import "layout/bootstrap/variables_custom";
-@import "layout/bootstrap/scss/bootstrap";
 
 // 03. Custom CSS
 

@@ -51,6 +51,10 @@ $font-family-sans-fallback:   'Arial', sans-serif;
 // @requires - `$font-family-sans-fallback`
 
 $font-family-sans:            'Helvetica Neue', 'Helvetica', $font-family-sans-fallback;
+$font-family-sans-source:     'Source Sans Pro', $font-family-sans;
+$font-family-sans-text:       'Calibri', $font-family-sans;
+
+
 
 // $font-family-serif
 //
@@ -74,7 +78,7 @@ $font-family-monospace:       'Inconsolata', 'Menlo', 'Consolas', 'Bitstream Ver
 //
 // $font-family-display - {list}
 
-$font-family-display:         $font-family-sans;
+$font-family-display:         $font-family-sans-source;
 
 // $font-family-default
 //
@@ -83,4 +87,4 @@ $font-family-display:         $font-family-sans;
 // $font-family-default - {string}
 // @requires - `$font-family-sans`
 
-$font-family-default:         $font-family-sans;
+$font-family-default:         $font-family-sans-text;
